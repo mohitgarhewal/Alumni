@@ -611,3 +611,21 @@ img {
       padding-left: 10vw;
   }
 }
+@media only screen and (max-width: 600px) {
+  .swiper{
+    width: 550px;
+    height: 350px;
+  }
+  .swiper-slide {
+    flex-direction: column;
+  }
+  .text-box {
+    width: 100%;
+  }
+  .image-box {
+    width: 100%;
+  }
+  .image-box img {
+    height: 200px; /* adjust the height as needed */
+  }
+}
