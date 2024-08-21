@@ -32,10 +32,11 @@ const imageswiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
   autoplay: {
-    delay: 4000, // Time between transitions in milliseconds (1.5 seconds)
-    disableOnInteraction: false, // Continue autoplay after user interaction
+    delay: 4000, 
+    disableOnInteraction: false, 
   },
-  loop: true, // Enable continuous loop mode
+  loop: true, 
+  
 });
 
 
